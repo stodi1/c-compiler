@@ -1,0 +1,8 @@
+int main(int b, int a){
+	a = a + 1;
+	while (a < b - 2 )
+		if ( a < b ){
+			a = a * 2;
+			b = b / 2;
+		}
+}
