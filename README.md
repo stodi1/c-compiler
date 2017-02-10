@@ -2,9 +2,12 @@
 A compiler for mini-C language using YACC and LEX and generation of intermediate code.
 
 # How to use (With OS X Sierra. You may do some changes with the other operating systems)
-1- compile the miniC.y file with the command : yacc -d miniC.y \n
+1- compile the miniC.y file with the command : yacc -d miniC.y
+
 2- compile the miniC.l file using : lex miniC.l
+
 3- compile the .c files : gcc lex.yy.c y.tab.c -o miniC
+
 4- run the executable : ./miniC
 
 # Result
